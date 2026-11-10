@@ -51,7 +51,7 @@ Microsoft Foundry uses projects to organize models, resources, data, and other a
 
 Now let's create an agent.
 
-1. On the **Home** page, in the **Build an agent** tile, select **Start building** (or on the **Build** page, select the **Agents** tab); and create a new agent named `speech-agent`.
+1. On the **Home** page, in the **Build an agent** tile, select **Start building** (or on the **Build** page, select the **Agents** tab); and create a new agent named `speech-agent`. If prompted, set the **Interaction mode** to **Text**.
 
      When ready, your agent opens in the agent playground.
 
@@ -72,6 +72,8 @@ Now let's create an agent.
     ```
 
     The agent should respond with an appropriate answer based on its instructions.
+
+    > **TIP**: If an error occurs due to instant reference quota still being initialized, in the **Model** list, select **Browse more models** and then search for a deploy any available gpt-5 or later model.
 
 ## Configure Azure Speech Voice live
 
